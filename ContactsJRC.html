@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JRC Customs Brokerage</title>
+    <link rel="stylesheet" href="ContactsJRC.css" />
+    <link rel="icon" type="x-icon" href="logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Urbanist"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Victor Mono"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Urbanist"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vidaloka"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="upper">
+        <div class="logo">
+          <img src="logo.png" alt="JRC Logo" />
+          <p>JRC Customs Brokerage</p>
+        </div>
+        <div class="header-actions">
+          <button class="contact-btn">Let's Talk</button>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="subheader">
+          <button class="navButton" onclick="location.href='HomeJRC.html'">
+            HOME
+          </button>
+          <button class="navButton" onclick="location.href='ServicesJRC.html'">
+            SERVICES
+          </button>
+          <button class="navButton" onclick="location.href='BlogJRC.html'">
+            BLOG
+          </button>
+          <button class="navButton" onclick="location.href='AboutUSJRC.html'">
+            ABOUT US
+          </button>
+        </div>
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search..." />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="ContactUS">
+        <h2>Let's talk</h2>
+      </div>
+
+      <section class="contact" id="contact">
+        <form class="Form" action="#" id="contactform">
+          <fieldset>
+            <div class="input-box">
+              <input
+                id="fullName"
+                name="fullName"
+                type="text"
+                required
+                placeholder="Full Name"
+              />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="input-box">
+              <input
+                id="mobileNumber"
+                name="mobileNumber"
+                type="tel"
+                required
+                placeholder="Mobile Number"
+              />
+              <input
+                id="subject"
+                name="subject"
+                type="subject"
+                required
+                placeholder="Subject For"
+              />
+            </div>
+            <input
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+            />
+            <button type="submit" value="Send Message" id="mamamo" class="btn">
+              Send Message
+            </button>
+          </fieldset>
+        </form>
+      </section>
+
+      <div class="otherContacts">
+        <button
+          onclick="location.href='AboutUSJRC.html'"
+          class="forOtherContacts"
+        >
+          &gt;&gt; For other contact methods click here &lt;&lt;
+        </button>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js "></script>
+    <script src="contact.js"></script>
+  </body>
+</html>

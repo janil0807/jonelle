@@ -1,0 +1,241 @@
+/* <!--#791E1E (Maroon)-->
+    <!--#E2BA86 (Khaki)-->
+    <!--#CE3179 (Magenta)-->
+    <!--#FFF6C5 (Cream)-->
+    <!--#FFFFFF (White)-->
+    <!--#FFCBA9 (Melon Orange)-->
+    <!--#FF7070 (Red na medj orange na hindi parang pomagranate na mukhang pink na medj hindi rin)-->*/
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: url(imgs/blogs_background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        color: #333;
+    
+    }
+
+    header {
+        background-color: #791E1E;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+    .logo img {
+        width: auto;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .logo p {
+        font-size: 1.5rem;
+        font-family: 'Victor Mono', 'Courier New', Courier, monospace;
+    }
+    .header-actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        margin-right: 30px;
+    }
+    
+    .upper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    
+    .lower{
+        background-color: #E2BA86;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
+    
+    .contact-btn {
+        background-color: #FFF6C5;
+        color: #CE3179;
+        padding: 8px 15px;
+        border-radius: 15px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        border-color: #CE3179;
+        border: solid;
+        height: 53px;
+        width: 130px;
+        border-width: medium;
+        transition: all 0.3s ease-in-out;
+    }
+    .contact-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0s.2);
+    }
+    
+    .subheader {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #E2BA86;
+        text-align: center;
+        padding: 20px 0;
+        color: white;
+    }
+    
+    .navButton{
+        margin-right: 20px;
+        background-color: #FFF6C5;
+        font-family: 'Victor Mono', 'Courier New', Courier, monospace;
+        color: #CE3179;
+        border-radius: 25px;
+        border: none;
+        height: 35px;
+        width: 95px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .navButton:hover{
+        background-color: #B52323;
+        color: #FFFFFF;
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .search{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 80px;
+        
+    }
+    
+    .search-bar {
+        background-color: #fef9ef;
+        padding: 5px 10px;
+        border: 1px solid;
+        border-radius: 35px;
+        height: 25px;
+        padding-right: 25px;
+        width: 380px;
+        
+    }
+    
+    
+    .topPart {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #791E1E;
+    }
+    
+    .bottomPart {
+        display: flex;
+        background-color: #DDA977  ;
+    }
+    
+    .logo img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+
+
+    .partDiv{
+        display: flex;
+        padding-top: 180px;
+        justify-content: center;
+    }
+
+    .hongkong{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    .hongkong h2{
+        font-family: 'Urbanist';
+        color: #CE3179;
+        text-align: center;
+    }
+
+    .hongkong p{
+        font-family: 'Urbanist';
+        font-size: 18px;
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: -10px;
+        margin-top: 0;
+    }
+    
+    .imgfitter{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgFit{
+        height: 335px;
+        width: 595px;
+        border: none;
+        border-radius: 15px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .tendecades{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 70px;
+    }
+
+    .tendecades h2{
+        font-family: 'Urbanist';
+        color: #CE3179;
+        text-align: center;
+    }
+
+    .tendecades p{
+        font-family: 'Urbanist';
+        font-size: 18px;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: -10px;
+        margin-top: 0;
+    }
+
+    @keyframes transitionPage{
+        from{
+            opacity: 0;
+            transform: rotateX(-10deg);
+        }
+        to{
+            opacity: 1;
+            transform: rotateX(0);
+        }
+    }
+
+    main{
+        animation: transitionPage 0.53s;
+    }
